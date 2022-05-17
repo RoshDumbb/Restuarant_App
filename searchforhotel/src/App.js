@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Google from './Components/Google';
-
+import Location from './Components/Location';
 function App() {
   return (
     <div className="App">
-     <Google/>
+      {/* <Google /> */}
+      <Location/>
     </div>
   );
 }
